@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chessmod",
+  "version": "${version}",
+  "name": "Chess",
+  "description": "Play chess against the computer inside Minecraft. Press K or type /chess.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.chessmod.ChessModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
